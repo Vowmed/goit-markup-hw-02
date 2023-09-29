@@ -1,1 +1,107 @@
-body { font-family: 'Roboto', sans-serif}
+:root {
+    --color-logo:#4d5ae5;
+    --color-section1:#2e2f42;
+    }
+    body{
+      font-family:'Roboto', sans-serif;
+      color: #434455;
+      background-color: #FFFFFF;
+    }
+    .logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-logo);
+    }
+    .first:hover{
+      color:#404bbf;
+    }
+    .first:focus{
+      color:#404bbf;
+    }
+    .first{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color:#2e2f42;
+    }
+    .address{
+      font-style: normal;
+     
+    }
+    .span{
+      color: #2e2f42;
+    }
+    .link{
+      text-decoration: none; 
+    }
+    .contact{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color:#434455;
+      text-decoration: none;
+    
+    }
+    .contact:hover{
+      color:#404bbf
+    }
+    .contact:focus{
+      color:#404bbf;
+    }
+    .filter-button :hover
+    .filter-button :focus{
+    background-color: var(--color-example);
+    }
+    .section-first{
+      background-color: var(--color-section1);
+    }
+    .heading-one{
+      font-size: 56px;
+      line-height: 1.07;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+    }
+    .heading-two{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color:#2e2f42;
+    
+    }
+    .paragraph-one{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
+    .button{
+      background-color: #4D5AE5;
+      font-family: "Roboto",sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+    .button:hover{
+      background-color: #404BBF;
+    }
+    .button:focus{
+      background-color: #404BBF;
+    }
+    
+    .filter-button{
+        background-color: var(--color-main);
+        font-family: inherit;
+        cursor: pointer;
+    }
+    .foo{
+      background-color: #2e2f42;
+    }
