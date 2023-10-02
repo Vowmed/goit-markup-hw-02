@@ -178,6 +178,24 @@
     background-color: #404BBF;
   }
   
-  .footer{
-    background-color: #2e2f42;
+  
+  .footer {
+    background-color: var(--navyblue);
+    padding: 100px 0;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  
+  .motto {
+    line-height: 1.5;
+    color: var(--cloud);
+    letter-spacing: 0.02em;
+    max-width: 264px;
+  }
+  
+  .studio-footer {
+    color: #f4f4fd;
   }
